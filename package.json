@@ -1,0 +1,43 @@
+{
+  "name": "notweet",
+  "version": "1.0.0",
+  "description": "Notify twitter stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barisesen/notweet.git"
+  },
+  "bin": {
+    "notweet": "./index.js"
+  },
+  "keywords": [
+    "notify",
+    "twitter",
+    "cli",
+    "terminal",
+    "twitter",
+    "cli",
+    "twitter",
+    "notify",
+    "stream"
+  ],
+  "author": "Barış Esen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barisesen/notweet/issues"
+  },
+  "homepage": "https://github.com/barisesen/notweet#readme",
+  "dependencies": {
+    "3x1st": "^1.0.3",
+    "async": "^2.0.1",
+    "cl0n3": "^1.0.0",
+    "fs": "0.0.1-security",
+    "h0m3": "^1.0.1",
+    "node-notifier": "^4.6.1",
+    "pm2": "^2.0.15",
+    "twit": "^2.2.5"
+  }
+}
