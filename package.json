@@ -11,7 +11,7 @@
     "url": "git+https://github.com/barisesen/notweet.git"
   },
   "bin": {
-    "notweet": "./index.js"
+    "notweet": "./app.js"
   },
   "keywords": [
     "notify",
@@ -34,7 +34,9 @@
     "3x1st": "^1.0.3",
     "async": "^2.0.1",
     "cl0n3": "^1.0.0",
+    "commander": "^2.9.0",
     "fs": "0.0.1-security",
+    "global-modules": "^0.2.3",
     "h0m3": "^1.0.1",
     "node-notifier": "^4.6.1",
     "pm2": "^2.0.15",

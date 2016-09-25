@@ -5,9 +5,10 @@ var notifier = require('node-notifier');
 var path = require('path');
 
 
-init().catch(function(val) {
-  console.log(val);
-})
+init()
+  .catch(function(val) {
+    console.log(val);
+  })
 
 init.config().then(function(config) {
   console.log(config);
@@ -21,11 +22,10 @@ init.config().then(function(config) {
         message: tweet.text,
         icon: path.join(__dirname, 'ico.png'), // Absolute path (doesn't work on balloons)
         sound: true, // Only Notification Center or Windows Toasters
-        open: 'https://google.com',
         wait: false // Wait with callback, until user action is taken against notification
       }, function (err, response) {
         // Response is response from notification
-        console.log(response);
+        // console.log(response);
         console.log(err);
       });
 
