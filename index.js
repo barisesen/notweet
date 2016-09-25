@@ -4,10 +4,9 @@ var Twit = require('twit')
 var notifier = require('node-notifier');
 var path = require('path');
 
-
 init()
   .catch(function(val) {
-    console.log(val);
+    // console.log(val);
   })
 
 init.config().then(function(config) {
