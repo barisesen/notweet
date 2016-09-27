@@ -7,7 +7,7 @@ var program = require('commander');
 
 program
   .option('-c, --close', 'Close app')
-  .option('-n, --newkeyword <newkeyword>', 'Add new keywords')
+  // .option('-n, --newkeyword <newkeyword>', 'Add new keywords')
   .parse(process.argv);
 
 
