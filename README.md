@@ -1,6 +1,6 @@
 # notweet
 
-## Follow your tweet in notification !
+## Follow your tweet in desktop notification !
 
 ```
 // Install
