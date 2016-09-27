@@ -1,6 +1,6 @@
 {
   "name": "notweet",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Notify twitter stream",
   "main": "app.js",
   "scripts": {
