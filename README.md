@@ -11,6 +11,12 @@
 // run
   notweet
 ```
+
+```
+  notweet -n "nodejs npm javascript" // Change listening keywords
+  notweet -c // Close notweet :(
+```
+
 > **Requirements:**
 
 > - Twitter app **consumer_key**
