@@ -16,6 +16,7 @@ init.config().then(function(config) {
 
   var stream = T.stream('statuses/filter', { track:[config.track]})
     stream.on('tweet', function (tweet) {
+      // console.log(tweet);
       notifier.notify({
         title: tweet.user.screen_name,
         message: tweet.text,
